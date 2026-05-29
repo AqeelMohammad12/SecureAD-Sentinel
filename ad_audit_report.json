@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-05-28T16:18:49.883183",
+  "domain": "sentinel.local",
+  "total_findings": 8,
+  "findings": [
+    {
+      "check": "kerberoastable_account",
+      "severity": "HIGH",
+      "account": "svc-sql",
+      "remediation": "Replace with Group Managed Service Account (gMSA)"
+    },
+    {
+      "check": "password_never_expires",
+      "severity": "MEDIUM",
+      "account": "Administrator",
+      "remediation": "Enforce password expiry or use gMSA"
+    },
+    {
+      "check": "password_never_expires",
+      "severity": "MEDIUM",
+      "account": "svc-sql",
+      "remediation": "Enforce password expiry or use gMSA"
+    },
+    {
+      "check": "password_never_expires",
+      "severity": "MEDIUM",
+      "account": "Guest",
+      "remediation": "Enforce password expiry or use gMSA"
+    },
+    {
+      "check": "disabled_stale_account",
+      "severity": "LOW",
+      "account": "krbtgt",
+      "remediation": "Delete or archive after 30 days"
+    },
+    {
+      "check": "disabled_stale_account",
+      "severity": "LOW",
+      "account": "ngrayson",
+      "remediation": "Delete or archive after 30 days"
+    },
+    {
+      "check": "disabled_stale_account",
+      "severity": "LOW",
+      "account": "svc-sql",
+      "remediation": "Delete or archive after 30 days"
+    },
+    {
+      "check": "disabled_stale_account",
+      "severity": "LOW",
+      "account": "Guest",
+      "remediation": "Delete or archive after 30 days"
+    }
+  ]
+}
