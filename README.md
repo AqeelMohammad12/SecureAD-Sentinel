@@ -36,11 +36,6 @@ implementing remediations with measurable results.
 - `app.py` — Flask dashboard
 - `ad_audit_report.json` — Sample audit report output
 
-## Skills Demonstrated
-Active Directory, Windows Server 2022, PowerShell, Python, Flask, LDAP, 
-Group Policy, Kerberos, gMSA, PingCastle, NTLM, Security Hardening, 
-CIS Benchmarks, Threat Detection, Vulnerability Remediation
-
 
 ## Helpdesk Automation Suite
 
