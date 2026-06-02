@@ -40,3 +40,23 @@ implementing remediations with measurable results.
 Active Directory, Windows Server 2022, PowerShell, Python, Flask, LDAP, 
 Group Policy, Kerberos, gMSA, PingCastle, NTLM, Security Hardening, 
 CIS Benchmarks, Threat Detection, Vulnerability Remediation
+
+
+## Helpdesk Automation Suite
+
+A menu-driven PowerShell toolkit automating the most common sysadmin tasks.
+
+| Script | Function |
+|---|---|
+| HelpdeskMenu.ps1 | Main menu interface |
+| Onboard-User.ps1 | Create new AD user with department and temp password |
+| Offboard-User.ps1 | Disable account, remove groups, reset password |
+| Reset-Password.ps1 | Reset password and force change on next login |
+| Manage-Groups.ps1 | Add or remove users from security groups |
+| AD-HealthReport.ps1 | Generate daily AD health report to .txt file |
+
+## Skills Demonstrated
+Active Directory, Windows Server 2022, PowerShell, Python, Flask, LDAP,
+Group Policy, Kerberos, gMSA, PingCastle, NTLM, Security Hardening,
+CIS Benchmarks, Threat Detection, Vulnerability Remediation,
+User Lifecycle Management, Helpdesk Automation
